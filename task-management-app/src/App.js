@@ -1,8 +1,8 @@
 import "./App.css";
 import HomePage from "./pages/HomePage";
-import Signup from "./pages/SignupPage";
+import Signup from "./component/Authentication/Signup";
 import Header from "./component/Layout/Header";
-import Login from "./pages/LoginPage";
+import Login from "./component/Authentication/Login";
 import AdminPage from "./pages/AdminPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
